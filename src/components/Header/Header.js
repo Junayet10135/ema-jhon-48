@@ -7,13 +7,14 @@ import './Header.css'
 const Header = () => {
     return (
         <nav className='header-nav'>
-          <img src={logo} alt="" />  
-          <div>
-              <Link to="/shop">Shop</Link>
-              <Link to="/orders">Orders</Link>
-              <Link to="/inventory">Inventory</Link>
-              <Link to="/about">About</Link>
-          </div>
+            <img src={logo} alt="" />
+            <div>
+                <Link to="/shop">Shop</Link>
+                <Link to="/orders">Orders</Link>
+                <Link to="/inventory">Inventory</Link>
+                <Link to="/about">About</Link>
+                <Link to="/login">Log In</Link>
+            </div>
         </nav>
     );
 };
